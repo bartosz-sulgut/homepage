@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+}
+
+.wrapper {
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 1000px;
+}
+
+.tittle {
+  color: teal;
+  margin: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.unorderedList {
+  margin: 10px;
+  max-width: 300px;
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+  width: 100%;
+}
+
+nav {
+  text-align: center;
+}
+
+.list {
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  background-color: teal;
+  border-radius: 7px;
+  padding: 10px 10px;
+}
+
+.list:hover {
+  background-color: rgb(24, 150, 150);
+}
+
+.head {
+  margin: 30px auto;
+  text-align: center;
+}
+
+.header {
+  text-align: center;
+  color: white;
+  background-color: teal;
+  border-radius: 7px;
+  text-decoration: none;
+  padding: 10px;
+  margin: 10px 5px;
+}
+
+.header:hover {
+  background-color: rgb(24, 150, 150);
+}
+
+.photo {
+  text-align: center;
+  height: 270px;
+  margin-bottom: 10px;
+}
+
+.picture {
+  height: 250px;
+  border-radius: 50%;
+  margin: 30px;
+  width: auto;
+  box-shadow: 10px 11px 37px -10px rgba(66, 68, 90, 0.47);
+}
+
+.hidePicture {
+  display: none;
+}
+
+.buttonCentre {
+  text-align: center;
+}
+
+.button {
+  background-color: teal;
+  color: white;
+  padding: 7px;
+  border: none;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.section {
+  font-size: 15px;
+  line-height: 1.5;
+  margin: 50px;
+}
+
+.caption {
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+  padding: 20px;
+}
+
+.tableContainer {
+  overflow: auto;
+}
+
+table {
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+  overflow: scroll;
+}
+
+th,
+td {
+  overflow: hidden;
+  max-width: 500px;
+  height: 20px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  text-align: center;
+}
+
+td {
+  min-width: 70px;
+}
+
+th {
+  background-color: teal;
+  color: white;
+  font-weight: normal;
+}
+
+tr:nth-child(even) {
+  background: #eee;
+}
+
+tr:hover {
+  background: #ddd;
+}
+
+footer {
+  background-color: teal;
+  padding: 30px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.phone {
+  color: white;
+  text-decoration: none;
+}
+
+.mail {
+  color: white;
+  text-decoration: none;
+}

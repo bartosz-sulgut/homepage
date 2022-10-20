@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="css/style.css" rel="stylesheet" />
+    <script defer src="js/script.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1 class="tittle">Portfolio - junior fronted developer</h1>
+      </header>
+
+      <nav>
+        <ul>
+          <li class="unorderedList">
+            <a href="#o-mnie" class="list">O mnie</a>
+          </li>
+          <li class="unorderedList">
+            <a href="#zainteresowania" class="list">Zainteresowania</a>
+          </li>
+          <li class="unorderedList">
+            <a href="#ulubione-ksiazki" class="list">Ulubione książki</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="photo">
+        <img
+          class="picture"
+          height="250"
+          src="images/Bartek2.jpg"
+          alt="Bartosz Sułgut"
+        />
+      </div>
+
+      <div class="buttonCentre">
+        <button class="button">Usuń zdjęcie</button>
+      </div>
+
+      <main>
+        <section class="section">
+          <h2 id="o-mnie">Kilka słów o mnie</h2>
+          <p>
+            Cześć, jestem <b>Bartek</b>, mam 23 lata i od ponad pół roku
+            mieszkam we Wrocławiu. Przeprowadziłem się do tego miasta ze względu
+            na studia, lecz po studiach planuję przeprowadzić się do Poznania,
+            gdzie zaczynałem swoją przygodę ze studiami. Jestem magistrem
+            architektury i aktualnie pracuję jako architekt. O zawodzie
+            <i>frontend developera</i> dowiedziałem się od znajomego podczas
+            studiów, który pokazał mi jak ten zawód wygląda. Programowania
+            zacząłem uczyć się od II edycji <i>YouCode</i>.
+          </p>
+        </section>
+
+        <section class="section">
+          <h2 id="zainteresowania">Zainteresowania</h2>
+          <p>
+            Większość wolnego czasu poświęcam na nauke, zadania domowe oraz
+            treningi, a w wolnym czasie spotykam się ze znajomymi. Lubię tworzyć
+            własnoręcznie zrobione przedmioty, daje mi to dużo satysfakcji:
+            pojedyńcze meble, mapy czy nawet obrazy.
+          </p>
+        </section>
+
+        <div class="tableContainer">
+          <table id="ulubione-ksiazki">
+            <caption class="caption">
+              Moje ulubione książki
+            </caption>
+            <tr>
+              <th>Tytuł</th>
+              <th>Autor</th>
+              <th>Gatunek</th>
+              <th>Ilość stron</th>
+            </tr>
+            <tr>
+              <th>Futu.re</th>
+              <td>Dmitry Glughovsky</td>
+              <td>fantastyka, fantasy, sci-fi</td>
+              <td>635</td>
+            </tr>
+            <tr>
+              <th>Metro 2033/2034/2035</th>
+              <td>Dmitry Glughovsky</td>
+              <td>fantastyka, fantasy, sci-fi</td>
+              <td>578/388/546</td>
+            </tr>
+            <tr>
+              <th>Alchemik</th>
+              <td>Paulo Coelho</td>
+              <td>literatura piękna</td>
+              <td>212</td>
+            </tr>
+            <tr>
+              <th>Cienie w mroku</th>
+              <td>Michelle Paver</td>
+              <td>kryminał, sensacja, thriller</td>
+              <td>240</td>
+            </tr>
+            <tr>
+              <th>Przebudzenie</th>
+              <td>Arwen Elys Dayton</td>
+              <td>fantastyka, fantasy, sci-fi</td>
+              <td>478</td>
+            </tr>
+            <tr>
+              <th>Nowy wspaniały świat</th>
+              <td>Aldous Huxley</td>
+              <td>fantastyka, fantasy, sci-fi</td>
+              <td>256</td>
+            </tr>
+          </table>
+        </div>
+      </main>
+
+      <footer>
+        <a href="tel: +48.123456789" class="phone">tel: 123 456 789</a>
+        <a href="mailto:bartek@mail.pl" class="mail">e-mail: bartek@mail.pl</a>
+      </footer>
+    </div>
+  </body>
+</html>
