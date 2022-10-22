@@ -1,5 +1,15 @@
 .section {
+  margin: 50px;
+}
+
+.section__paragraph {
   font-size: 15px;
   line-height: 1.5;
-  margin: 50px;
+  font-weight: 400;
+}
+
+.section__subHeader {
+  margin-bottom: 15px;
+  color: teal;
+  font-weight: 400;
 }
