@@ -1,7 +1,7 @@
 console.log("Hello world!");
 
 let button = document.querySelector(".button");
-let picture = document.querySelector(".picture");
+let picture = document.querySelector(".js-picture");
 
 const pictureHandler = () => {
   picture.classList.toggle("hidePicture");

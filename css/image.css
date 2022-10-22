@@ -1,0 +1,30 @@
+.image__photo {
+  text-align: center;
+  height: 270px;
+  margin-bottom: 10px;
+}
+
+.image__picture {
+  height: 250px;
+  border-radius: 50%;
+  margin: 30px;
+  width: auto;
+  box-shadow: 10px 11px 37px -10px rgba(66, 68, 90, 0.47);
+}
+
+.hidePicture {
+  display: none;
+}
+
+.image__buttonCentre {
+  text-align: center;
+}
+
+.image__button {
+  background-color: teal;
+  color: white;
+  padding: 7px;
+  border: none;
+  border-radius: 5px;
+  margin: 10px;
+}

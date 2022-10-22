@@ -1,0 +1,16 @@
+footer {
+  background-color: teal;
+  padding: 30px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.footer__phone {
+  color: white;
+  text-decoration: none;
+}
+
+.footer__mail {
+  color: white;
+  text-decoration: none;
+}

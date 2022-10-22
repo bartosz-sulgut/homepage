@@ -13,6 +13,12 @@
       referrerpolicy="no-referrer"
     />
     <link href="css/style.css" rel="stylesheet" />
+    <link href="css/navigation.css" rel="stylesheet" />
+    <link href="css/image.css" rel="stylesheet" />
+    <link href="css/table.css" rel="stylesheet" />
+    <link href="css/footer.css" rel="stylesheet" />
+    <link href="css/header.css" rel="stylesheet" />
+    <link href="css/section.css" rel="stylesheet" />
     <script defer src="js/script.js"></script>
     <link
       href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&display=swap"
@@ -23,34 +29,38 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1 class="tittle">Portfolio - junior fronted developer</h1>
+        <h1 class="header__tittle">Portfolio - junior fronted developer</h1>
       </header>
 
       <nav>
         <ul>
-          <li class="unorderedList">
-            <a href="#o-mnie" class="list">O mnie</a>
+          <li class="navigation__unorderedList">
+            <a href="#o-mnie" class="navigation__list">O mnie</a>
+          </li>
+          <li class="navigation__unorderedList">
+            <a href="#zainteresowania" class="navigation__list"
+              >Zainteresowania</a
+            >
           </li>
           <li class="unorderedList">
-            <a href="#zainteresowania" class="list">Zainteresowania</a>
-          </li>
-          <li class="unorderedList">
-            <a href="#ulubione-ksiazki" class="list">Ulubione książki</a>
+            <a href="#ulubione-ksiazki" class="navigation__list"
+              >Ulubione książki</a
+            >
           </li>
         </ul>
       </nav>
 
-      <div class="photo">
+      <div class="image__photo">
         <img
-          class="picture"
+          class="image__picture js-picture"
           height="250"
           src="images/Bartek2.jpg"
           alt="Bartosz Sułgut"
         />
       </div>
 
-      <div class="buttonCentre">
-        <button class="button">Usuń zdjęcie</button>
+      <div class="image__buttonCentre">
+        <button class="image__button">Usuń zdjęcie</button>
       </div>
 
       <main>
@@ -78,9 +88,9 @@
           </p>
         </section>
 
-        <div class="tableContainer">
+        <div class="table__tableContainer">
           <table id="ulubione-ksiazki">
-            <caption class="caption">
+            <caption class="table__caption">
               Moje ulubione książki
             </caption>
             <tr>
@@ -130,8 +140,10 @@
       </main>
 
       <footer>
-        <a href="tel: +48.123456789" class="phone">tel: 123 456 789</a>
-        <a href="mailto:bartek@mail.pl" class="mail">e-mail: bartek@mail.pl</a>
+        <a href="tel: +48.123456789" class="footer__phone">tel: 123 456 789</a>
+        <a href="mailto:bartek@mail.pl" class="footer__mail"
+          >e-mail: bartek@mail.pl</a
+        >
       </footer>
     </div>
   </body>

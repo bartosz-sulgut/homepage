@@ -1,0 +1,25 @@
+.header__tittle {
+  color: teal;
+  margin: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.head {
+  margin: 30px auto;
+  text-align: center;
+}
+
+.header {
+  text-align: center;
+  color: white;
+  background-color: teal;
+  border-radius: 7px;
+  text-decoration: none;
+  padding: 10px;
+  margin: 10px 5px;
+}
+
+.header:hover {
+  background-color: rgb(24, 150, 150);
+}

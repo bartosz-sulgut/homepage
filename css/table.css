@@ -1,0 +1,45 @@
+.table__tableContainer {
+  overflow: auto;
+}
+
+table {
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+  overflow: scroll;
+}
+
+th,
+td {
+  overflow: hidden;
+  max-width: 500px;
+  height: 20px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  text-align: center;
+}
+
+td {
+  min-width: 70px;
+}
+
+th {
+  background-color: teal;
+  color: white;
+  font-weight: normal;
+}
+
+tr:nth-child(even) {
+  background: #eee;
+}
+
+tr:hover {
+  background: #ddd;
+}
+
+.table__caption {
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+  padding: 20px;
+}
