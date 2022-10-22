@@ -1,6 +1,6 @@
 console.log("Hello world!");
 
-let button = document.querySelector(".button");
+let button = document.querySelector(".js-button");
 let picture = document.querySelector(".js-picture");
 
 const pictureHandler = () => {
