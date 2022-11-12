@@ -1,4 +1,4 @@
-# Bartek Sułgut - moja strona
+# Bartosz Sułgut - my first webside
 
 ![Bartek](images/Bartek2.jpg)
 
